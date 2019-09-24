@@ -14,7 +14,7 @@ ReactJS with Redux as the global state management and with JWT authentication.
 8. To specify the Google-App-Engine `/app.yaml` file follow the [Official Google App Engine Documentation](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
 9. To specify the Google-App-Engine `/dispatch.yaml` file follow the [Official Google App Engine Documentation](https://cloud.google.com/appengine/docs/standard/nodejs/reference/dispatch-yaml)
 10. Done. Test your App in local environment by [http://localhost:PORT](http://localhost:PORT)
-11. Publish your repo to GitHub and Travis-CI will do the rest... ["rest" means that it will deploy the `NodeJS` app to Google App Engine.]
+11. Publish your repo to GitHub and Travis-CI will do the rest... ["rest" means that it will deploy the `ReactJS` app to Google App Engine.]
 
 ## Meta
 
