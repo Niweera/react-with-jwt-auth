@@ -1,6 +1,6 @@
 # Quick template for ReactJS app with JWT authentication.
 
-ReactJS with Redux as the global state management and with JWT authentication.
+ReactJS with Redux as the global state management and with JWT authentication. Google reCAPTCHA v2 is used for user verification at the login.
 
 ## How to setup
 
@@ -9,12 +9,13 @@ ReactJS with Redux as the global state management and with JWT authentication.
 3. Define components in `/src/components/` directory
 4. Define routes in `/src/App.js` file
 5. Change `/package.json` file as per requirements
-6. If you want to host the API in Google-App-Engine, create a project in GAE and follow the [Official Travis-CI Documentation](https://docs.travis-ci.com/user/deployment/google-app-engine/)
-7. To specify the env variables in Travis-CI follow the [Official Travis-CI Documentation](https://docs.travis-ci.com/user/environment-variables/)
-8. To specify the Google-App-Engine `/app.yaml` file follow the [Official Google App Engine Documentation](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
-9. To specify the Google-App-Engine `/dispatch.yaml` file follow the [Official Google App Engine Documentation](https://cloud.google.com/appengine/docs/standard/nodejs/reference/dispatch-yaml)
-10. Done. Test your App in local environment by [http://localhost:PORT](http://localhost:PORT)
-11. Publish your repo to GitHub and Travis-CI will do the rest... ["rest" means that it will deploy the `ReactJS` app to Google App Engine.]
+6. Add your Google reCAPTCHA v2 Site-Key in `/src/components/pages/Login.js` follow [Official Google reCAPTCHA Documentation](https://developers.google.com/recaptcha/docs/display)
+7. If you want to host the API in Google-App-Engine, create a project in GAE and follow the [Official Travis-CI Documentation](https://docs.travis-ci.com/user/deployment/google-app-engine/)
+8. To specify the env variables in Travis-CI follow the [Official Travis-CI Documentation](https://docs.travis-ci.com/user/environment-variables/)
+9. To specify the Google-App-Engine `/app.yaml` file follow the [Official Google App Engine Documentation](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
+10. To specify the Google-App-Engine `/dispatch.yaml` file follow the [Official Google App Engine Documentation](https://cloud.google.com/appengine/docs/standard/nodejs/reference/dispatch-yaml)
+11. Done. Test your App in local environment by [http://localhost:PORT](http://localhost:PORT)
+12. Publish your repo to GitHub and Travis-CI will do the rest... ["rest" means that it will deploy the `ReactJS` app to Google App Engine.]
 
 ## Meta
 
