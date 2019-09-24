@@ -1,0 +1,17 @@
+language: node_js
+sudo: true
+node_js:
+  - stable
+cache:
+  directories:
+    - node_modules
+script:
+  - npm test
+  - npm run build
+deploy:
+  provider: gae
+  keyfile: <Your-Key-File>
+  project: <Your-Project-ID>
+  skip_cleanup: true
+  on:
+    branch: master
